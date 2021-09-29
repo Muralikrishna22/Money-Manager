@@ -1,0 +1,131 @@
+.app-container {
+  min-height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+}
+.header {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png');
+  background-size: cover;
+  width: 80vw;
+  padding: 30px;
+  border-radius: 30px;
+  margin-bottom: 30px;
+}
+
+.heading {
+  color: #1e293b;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: Roboto;
+}
+
+.paragraph {
+  color: #475569;
+  font-size: 20px;
+  font-weight: 500;
+  font-family: Roboto;
+}
+
+.money-manager {
+  color: #0b69ff;
+  font-size: 20px;
+  font-weight: 500;
+  font-family: Roboto;
+}
+
+.transaction-container {
+  display: flex;
+  justify-content: space-between;
+  width: 80vw;
+}
+
+.add-transaction-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 30px;
+  border: 2px solid #7e858e;
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+
+.input {
+  color: #7e858e;
+  border: 2px solid #7e858e;
+  font-size: 10px;
+  border-radius: 7px;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+.label {
+  color: #7e858e;
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+
+.add-btn {
+  height: 30px;
+  width: 70px;
+  background-color: #0b69ff;
+  border: none;
+  border-radius: 5px;
+  color: #ffffff;
+}
+
+.history-container {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  border: 2px solid #7e858e;
+  border-radius: 20px;
+  width: 55vw;
+}
+@media screen and (max-width: 768) {
+  .transaction-container {
+    flex-wrap: wrap;
+  }
+  .add-transaction-container {
+    width: 80vw;
+  }
+  .history-container {
+    width: 80vw;
+  }
+}
+
+.table {
+  display: flex;
+  justify-content: space-around;
+  border: 2px solid #7e858e;
+  margin-bottom: 0px;
+  padding-right: 25%;
+}
+.table-columns {
+  font-family: Roboto;
+  font-weight: bold;
+  font-size: 25px;
+  color: #1e293b;
+}
+.transaction-list {
+  padding: 0px;
+  margin: 0px;
+}
+
+/* 
+Hex: #475569
+Hex: #0b69ff
+Hex: #ecfccb
+Hex: #84cc16
+Hex: #cffafe
+Hex: #06b6d4
+Hex: #ede9fe
+Hex: #7c3aed
+Hex: #cbd5e1
+Hex: #7e858e
+Hex: #ffffff
+Hex: #1e293b
+Hex: #d7dfe9
+Hex: #334155 */
